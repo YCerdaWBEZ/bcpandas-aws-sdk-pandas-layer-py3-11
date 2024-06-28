@@ -1,3 +1,6 @@
+WHATS DIFFERENT?
+This fork has a small modification to remove lineterminator argument from df.replace call to allow this package to work with [aws-sdk-pandas-layer-py3-11]
+
 # bcpandas
 
 [![PyPI version](https://img.shields.io/pypi/v/bcpandas.svg)](https://pypi.org/project/bcpandas/)
