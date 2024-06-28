@@ -446,7 +446,6 @@ def to_sql(
         index=False,  # already set as new col earlier if index=True
         quoting=csv.QUOTE_MINIMAL,  # pandas default
         quotechar=_quotechar,
-        lineterminator=NEWLINE,
         doublequote=True,
         escapechar=None,  # not needed, as using doublequote
         encoding=encoding,
